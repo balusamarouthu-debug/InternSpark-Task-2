@@ -1,17 +1,21 @@
-=== API Data Fetcher ===
-Enter keyword (or press Enter to skip): qui
-Enter User ID (or press Enter to skip): 1
+# 🌐 API Data Fetcher (Python)
 
-Showing 2 result(s):
+## 📌 Description
+This project fetches data from a public API using the `requests` module, parses JSON, and allows users to search/filter results.
 
-----------------------------
-ID      : 2
-User ID : 1
-Title   : qui est esse
-Body    : est rerum tempore vitae...
+## 🚀 Features
+- Fetch API data using requests
+- Parse JSON response
+- Search by keyword (title)
+- Filter by User ID
+- Clean formatted output
+- Exception handling
 
-----------------------------
-ID      : 3
-User ID : 1
-Title   : ea molestias quasi exercitationem repellat qui ipsa sit aut
-Body    : et iusto sed quo iure...
+## 🛠️ Technologies Used
+- Python 3
+- requests module
+
+## 📦 Installation
+
+```bash
+pip install requests
